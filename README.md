@@ -59,7 +59,7 @@ In order to run this bot you need to:
 All your information and details are saved locally in your own MongoDB which is installed on your system and nobody else has access to it. 
 
 ## Platform Conversion
-For converting this bot to work in compatible platforms like "Bale" messenger, you need to:
+For converting this bot to work in compatible platforms like "Bale" messenger, you need to:  
 1.Uncomment line 421 on main.py and 713 in Price_fetcher.py  
 2.Get your token bot from (@botfather) in Bale messenger  
 3.Change the next line of each corresponding file from  
