@@ -48,14 +48,27 @@ Example output:
 
 
 
-## Requirements
+##  Usage
 In order to run this bot you need to:  
-1.Install [MongoDB](https://www.mongodb.com/docs/manual/administration/install-community/)  
-2.Install Python 3.>  
-3.Install requirements using```pip -r requirements.txt ```
-4.Create a bot in [BotFather](https://telegram.me/BotFather)  
-5.Copy the token and place it in ```Main.py and Price_Fetcher.py```  
-6.Run the script ```Python main.py```  
+1.Install [MongoDB](https://www.mongodb.com/docs/manual/administration/install-community/)    
+2.Install Python 3.>    
+3.Clone or download this repository  
+```
+Git clone https://github.com/morzathor/MyTGBot.git
+```  
+4.Install requirements using  
+```
+pip -r requirements.txt
+```  
+5.Create a bot in [BotFather](https://telegram.me/BotFather)     
+6.Copy the token and place it in  
+```
+Main.py and Price_Fetcher.py
+```  
+7.Run the script  
+```
+Python3 main.py
+```  
 
 ### Privacy Concerns
 All your information and details are saved locally in your own MongoDB which is installed on your system and nobody else has access to it. 
