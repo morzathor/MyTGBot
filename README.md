@@ -46,6 +46,8 @@ Example output:
 
 
 
+
+
 ## Requirements
 In order to run this bot you need to:  
 1.Install [MongoDB](https://www.mongodb.com/docs/manual/administration/install-community/)  
@@ -60,10 +62,11 @@ All your information and details are saved locally in your own MongoDB which is 
 
 ## Platform Conversion
 For converting this bot to work in compatible platforms like "Bale" messenger, you need to:  
-1.Uncomment line 421 on main.py and 713 in Price_fetcher.py  
+1.Uncomment line **421** on ```main.py``` and **713** in ```Price_fetcher.py```  
 2.Get your token bot from (@botfather) in Bale messenger  
 3.Change the next line of each corresponding file from  
 ```
-application = ApplicationBuilder().token('YOUR_TOKEN').build() to  
-
-application = ApplicationBuilder().base_url(base_url=Base_Url).token('YOUR_TOKEN').build()```
+application = ApplicationBuilder().token('YOUR_TOKEN').build()
+to    
+application = ApplicationBuilder().base_url(base_url=Base_Url).token('YOUR_TOKEN').build()
+```
