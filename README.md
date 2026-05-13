@@ -21,7 +21,7 @@ It has a built-in generator. It generates password based on your input character
 ## Currency / Gold price Watcher
 
 Using [TabDeal](web.tabdeal.org) API, it shows you prices of Gold,Currency and other things as well.
-You can even set a time interval to get prices and your own desired time interval.
+You can even set a time interval to get prices at your own desired time interval.
 Example output:
 
 
